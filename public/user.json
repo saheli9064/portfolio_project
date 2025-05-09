@@ -1,0 +1,15 @@
+{
+    "name": "Saheli Mondal",
+    "role": "Web Developer | Designer | Student",
+    "contactLink": "#contact",
+    "about": "B.Tech 3rd-year student passionate about front-end development with hands-on experience in HTML5, CSS3, and responsive design. Eager to contribute to real-world projects and grow as a developer.",
+    "image": "profile.jpg",
+    "projects": [
+      {
+        "title": "Smart Portfolio Builder",
+        "description": "A responsive personal website template that helps users showcase their skills, projects, and contact details easily."
+      }
+    ],
+    "footer": "© 2025 Saheli Mondal. All rights reserved."
+  }
+   

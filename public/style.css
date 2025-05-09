@@ -1,0 +1,151 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #0f62fe;
+  padding: 15px 20px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ffcb05;
+}
+
+/* Main Layout */
+main {
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 960px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+/* Profile Picture */
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 20px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #0f62fe;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #054ada;
+}
+
+.download-btn {
+  margin-top: 30px;
+}
+
+/* Resume Container */
+.resume-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1, h2 {
+  color: #0f62fe;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+/* Project Cards */
+.card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  width: 100%;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+  color: #0f62fe;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.card a {
+  color: #0f62fe;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.card a:hover {
+  color: #002d9c;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  h1, h2 {
+    font-size: 1.5rem;
+  }
+
+  .card {
+    padding: 20px;
+  }
+}
