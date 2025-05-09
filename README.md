@@ -13,5 +13,5 @@ A modern, responsive portfolio web app built with **Node.js**, **Express**, and 
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/your-username/saheli-portfolio.git
+   git clone https://github.com/saheli9064/portfolio_project.git
    cd saheli-portfolio
